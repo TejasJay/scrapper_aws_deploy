@@ -71,16 +71,7 @@ class threadClass:
 
 
 
-@app.route("/", methods=['GET'])
-@cross_origin()
-def home():
-    return render_template('index.html')
-
-
-
-
-
-@app.route('/scrap', methods=['POST','GET'])
+@app.route('/', methods=['POST','GET'])
 @cross_origin()
 def index():
     if request.method == 'POST':

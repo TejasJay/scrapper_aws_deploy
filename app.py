@@ -1,12 +1,13 @@
 # doing necessary imports
 import threading
 
-import os
 from flask import Flask, render_template, request, url_for, redirect
 from flask_cors import cross_origin
 import pandas as pd
 from FlipkratScrapping import FlipkratScrapper
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
 from CassandraDBOperations import cassandraDBManagement
 
 
@@ -33,13 +34,14 @@ free_status = True
 
 app = Flask(__name__)  # initialising the flask app with the name 'app'
 
+
+
+
 #For selenium driver implementation on heroku
 chrome_options = webdriver.ChromeOptions()
-chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--no-sandbox")
-driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument("disable-dev-shm-usage")
 
 
 
@@ -81,7 +83,7 @@ def home():
 
 
 
-@app.route('/scrap', methods=['POST'])
+@app.route('/scrap', methods=['POST','GET'])
 @cross_origin()
 def index():
     if request.method == 'POST':
@@ -98,7 +100,7 @@ def index():
 
 
             review_count = 0
-            scrapper_object = FlipkratScrapper(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
+            scrapper_object = FlipkratScrapper(executable_path=ChromeDriverManager().install(),
                                                chrome_options=chrome_options)
 
             cassandra_obj = cassandraDBManagement(path, user_id, secure_key, key_space, table_name)
@@ -157,8 +159,9 @@ def feedback():
     try:
         global collection_name
         if collection_name is not None:
-            scrapper_object = FlipkratScrapper(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
+            scrapper_object = FlipkratScrapper(executable_path=ChromeDriverManager().install(),
                                                chrome_options=chrome_options)
+
             cassandra_obj = cassandraDBManagement(path, user_id, secure_key, key_space, table_name)
             rows = cassandra_obj.findAllRecords()
 

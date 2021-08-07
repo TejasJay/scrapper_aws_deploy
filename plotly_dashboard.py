@@ -5,8 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from wordcloud import WordCloud, STOPWORDS
-import plotly.graph_objs as go
-import os
+import plotly.graph_objs
 from logger1 import App_Logger
 
 

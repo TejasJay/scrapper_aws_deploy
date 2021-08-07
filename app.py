@@ -73,7 +73,7 @@ class threadClass:
 
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('scrapper-selenium-heroku.herokuapp.com', methods=['POST', 'GET'])
 @cross_origin()
 def index():
     if request.method == 'POST':

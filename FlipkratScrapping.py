@@ -15,7 +15,7 @@ from logger1 import App_Logger
 
 
 
-path = 'secure-connect-FlipkartScrapper.zip'
+path = 'secure-connect-flipkartscrapper.zip'
 user_id = 'EyeOFNUtvBEWdsuTcwTjqLQQ'
 secure_key = 'K,Xh4igbTq5ZCvRK,_q5u6qieJXwZXpS5dszUGz1Kf1HvBv-HDA,NPvreG.dN4RzYDL0ixBTsnlfzffdSpZIaUKHgshvYgc,x.mj+h8jauSlS.u06nbJFXmnxsTZ9rky'
 key_space = 'tj'

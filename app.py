@@ -14,7 +14,7 @@ from plotly_dashboard import plotly_dashboard
 
 
 
-path = 'secure-connect-FlipkartScrapper.zip'
+path = 'secure-connect-flipkartscrapper.zip'
 user_id = 'EyeOFNUtvBEWdsuTcwTjqLQQ'
 secure_key = 'K,Xh4igbTq5ZCvRK,_q5u6qieJXwZXpS5dszUGz1Kf1HvBv-HDA,NPvreG.dN4RzYDL0ixBTsnlfzffdSpZIaUKHgshvYgc,x.mj+h8jauSlS.u06nbJFXmnxsTZ9rky'
 key_space = 'tj'
@@ -72,8 +72,16 @@ class threadClass:
 
 
 
+@app.route("/", methods=['GET'])
+@cross_origin()
+def home():
+    return render_template('index.html')
 
-@app.route('/', methods=['POST', 'GET'])
+
+
+
+
+@app.route('/scrap', methods=['POST'])
 @cross_origin()
 def index():
     if request.method == 'POST':

@@ -1,7 +1,7 @@
 # doing necessary imports
 import threading
 
-
+import os
 from flask import Flask, render_template, request, jsonify, Response, url_for, redirect
 from flask_cors import CORS, cross_origin
 import pandas as pd
@@ -37,10 +37,11 @@ application = Flask(__name__)  # initialising the flask app with the name 'app'
 
 #For selenium driver implementation on heroku
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument("disable-dev-shm-usage")
-
+chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
+driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
 
 
 
@@ -91,7 +92,7 @@ def index():
 
 
             review_count = 0
-            scrapper_object = FlipkratScrapper(executable_path=ChromeDriverManager().install(),
+            scrapper_object = FlipkratScrapper(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
                                                chrome_options=chrome_options)
 
             cassandra_obj = cassandraDBManagement(path, user_id, secure_key, key_space, table_name)

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+<style>
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url("static/images/dashboard_background6.png");
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 300;
+        font-size: 2.4em;
+        margin: 20px;
+        color: #fff;
+    }
+    
+    img
+    {
+        border-radius: 8px;
+    }
+    
+    .gallerContainer{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        
+        
+    }
+    .gallery{
+        padding-top: 30px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 80%;
+    }
+    .gallery input{
+        display: none;
+        
+    }
+    .gallery > img:first-of-type{
+        position: absolute;
+        display: flex;
+        top:0;
+        left: 0;
+        z-index: 10;
+    }
+    
+    .galleryImage{
+        position: absolute;
+        top:0;
+        left: 0;
+        overflow: hidden;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.25s ease-out;
+        box-shadow: rgba(203, 203, 179, 1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+        
+    }
+    .thumbnails{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: auto;
+        overflow-y: hidden;
+        
+    }
+    .thumbnailImage{
+        margin: 0 5px;
+        
+    }
+    .thumbnailImage img{
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+    }
+    
+    .thumbnailImage:first-child{
+        margin-left: 0px;
+    }
+    .thumbnailImage:last-child{
+        margin-left: 0px;
+    }
+    
+    
+    #c1:checked + #i1{
+        opacity: 1;
+    }
+    #c2:checked + #i2{
+        opacity: 1;
+    }
+    #c3:checked + #i3{
+        opacity: 1;
+    }
+    
+    
+    
+    @media(max-width: 768px)
+    {
+        h1{
+            font-size: 1.5em;
+        }
+        .container{
+            max-width: 700px;
+            padding: 15px;
+        }
+        .galleryContainer{
+            width: 100%;
+            margin: 0;
+        }
+        
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+</style>    
+    
+
+</head>
+    
+    
+    
+
+
+    
+    
+    
+<body>
+
+
+<div class="container">
+    <div class="gallerContainer">
+        <h1>Scraper Dashboard</h1>
+        <div class="gallery">
+            <br>
+            <input type="radio" name="controls" id="c1" checked>
+            <img src="static/images/cloudplotfig.png" id="i1" class="galleryImage">
+            
+            <input type="radio" name="controls" id="c2">
+            <img src="static/images/lineplotfig.png" id="i2" class="galleryImage">
+            
+            <input type="radio" name="controls" id="c3">
+            <img src="static/images/sunburstfig.png" id="i3" class="galleryImage">
+            
+        </div>
+        
+        
+        <div class="thumbnails">
+            
+            <label class="thumbnailImage" for="c1">
+                <img src="static/images/cloudplotfig.png" >
+            </label>
+            
+            <label class="thumbnailImage" for="c2">
+                <img src="static/images/lineplotfig.png" >
+            </label>
+            
+            <label class="thumbnailImage" for="c3">
+                <img src="static/images/sunburstfig.png" >
+            </label>
+            
+            <br><br><br><br>
+        
+        
+        
+        
+        
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+</div>
+
+
+
+</body>
+</html>

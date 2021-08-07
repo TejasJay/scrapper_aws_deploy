@@ -1,0 +1,397 @@
+2021-08-07	07:52:29	Entered the __init__ method of get FlipkratScrapper class
+2021-08-07	07:52:36	Entered the create_table method of cassandraDBManagement class
+2021-08-07	07:52:36	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:52:45	Entered the findAllRecords method of cassandraDBManagement class
+2021-08-07	07:52:45	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:52:52	Entered the deleteRecords method of cassandraDBManagement class
+2021-08-07	07:52:52	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:53:04	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:53:44	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:53:44	Entered the login_popup_handle method of get FlipkratScrapper class
+2021-08-07	07:53:44	Entered the wait method of get FlipkratScrapper class
+2021-08-07	07:53:44	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:53:44	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:53:44	Entered the get getLoginCloseButton method of the ObjectRepository class
+2021-08-07	07:53:44	Exited getLoginCloseButton method of the ObjectRepository class successfully
+2021-08-07	07:53:44	Entered the findElementByXpath method of get FlipkratScrapper class
+2021-08-07	07:53:44	Exited findElementByXpath method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Exited login_popup_handle method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Entered the searchProduct method of get FlipkratScrapper class
+2021-08-07	07:53:45	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:53:45	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Entered the get getInputSearchArea method of the ObjectRepository class
+2021-08-07	07:53:45	Exited getInputSearchArea method of the ObjectRepository class successfully
+2021-08-07	07:53:45	Entered the findElementByXpath method of get FlipkratScrapper class
+2021-08-07	07:53:45	Exited findElementByXpath method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Entered the get getSearchButton method of the ObjectRepository class
+2021-08-07	07:53:45	Exited getSearchButton method of the ObjectRepository class successfully
+2021-08-07	07:53:45	Entered the findElementByXpath method of get FlipkratScrapper class
+2021-08-07	07:53:45	Exited findElementByXpath method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Exited searchProduct method of the FlipkratScrapper class successfully
+2021-08-07	07:53:45	Entered the isconnectionestablished method of cassandraDBManagement class
+2021-08-07	07:53:45	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:53:54	Entered the findAllRecords method of cassandraDBManagement class
+2021-08-07	07:53:54	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:54:02	Entered the getReviewsToDisplay method of FlipkratScrapper class
+2021-08-07	07:54:02	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:02	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:02	Entered the getProductLinks method of get FlipkratScrapper class
+2021-08-07	07:54:02	Entered the findElementByTag method of get FlipkratScrapper class
+2021-08-07	07:54:02	Exited findElementByTag method of the FlipkratScrapper class successfully
+2021-08-07	07:54:03	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the getProductName method of get FlipkratScrapper class
+2021-08-07	07:54:09	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getProductNameByClass method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getProductNameByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the checkVisibilityOfElement method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited checkVisibilityOfElement method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getProductNameByClass method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getProductNameByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Exited getProductName method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the getProductSearched method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited getProductSearched method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the getPrice method of get FlipkratScrapper class
+2021-08-07	07:54:09	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getOriginalPriceUsingClass method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getProductSearchedByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Exited getPrice method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the getOfferDetails method of get FlipkratScrapper class
+2021-08-07	07:54:09	Entered the getAvailableOffer method of get FlipkratScrapper class
+2021-08-07	07:54:09	Entered the checkMoreOffer method of get FlipkratScrapper class
+2021-08-07	07:54:09	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getMoreOffersUsingClass method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getMoreOffersUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:09	Entered the get getAvailableOffers method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getAvailableOffers method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the get getAvailableOffers method of the ObjectRepository class
+2021-08-07	07:54:09	Exited getAvailableOffers method of the ObjectRepository class successfully
+2021-08-07	07:54:09	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:09	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the getDiscountedPercent method of get FlipkratScrapper class
+2021-08-07	07:54:10	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the get getDiscountPercent method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getDiscountPercent method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Exited getPrice method of the getDiscountedPercent class successfully
+2021-08-07	07:54:10	Entered the getEMIDetails method of get FlipkratScrapper class
+2021-08-07	07:54:10	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the checkViewPlanForEMI method of get FlipkratScrapper class
+2021-08-07	07:54:10	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the get getViewPlanLinkUsingClass method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getViewPlanLinkUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the get getViewPlanLinkUsingClass method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getViewPlanLinkUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the getTotalReviewPage method of get FlipkratScrapper class
+2021-08-07	07:54:10	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:10	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:10	Entered the get getTotalReviewPage method of the ObjectRepository class
+2021-08-07	07:54:10	Exited getTotalReviewPage method of the ObjectRepository class successfully
+2021-08-07	07:54:10	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:12	Unsuccessful in executing findElementByClass method of the FlipkratScrapper class: error message is: Message: no such element: Unable to locate element: {"method":"css selector","selector":"._2MImiq"}
+  (Session info: chrome=92.0.4515.131)
+
+2021-08-07	07:54:12	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:54:12	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:54:12	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:12	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:12	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:54:12	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:54:12	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:54:14	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:54:14	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:54:14	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:14	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:14	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:54:14	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:54:14	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:15	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:16	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:16	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:16	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:16	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:16	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:16	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:16	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:16	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:16	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:16	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:20	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:20	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:54:20	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:54:20	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:20	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:20	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:54:20	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:54:20	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:54:20	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:54:20	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:54:20	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:20	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:20	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:54:20	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:54:20	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:20	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:20	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:21	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:21	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:21	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:21	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:21	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:21	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:21	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:21	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:21	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:54:21	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:54:28	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:29	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:29	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the getProductName method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getProductNameByClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getProductNameByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the checkVisibilityOfElement method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited checkVisibilityOfElement method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getProductNameByClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getProductNameByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Exited getProductName method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the getProductSearched method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getProductSearched method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the getPrice method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getOriginalPriceUsingClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getProductSearchedByClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Exited getPrice method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the getOfferDetails method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getAvailableOffer method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the checkMoreOffer method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getMoreOffersUsingClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getMoreOffersUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getAvailableOffers method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getAvailableOffers method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the get getAvailableOffers method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getAvailableOffers method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the getDiscountedPercent method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getDiscountPercent method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getDiscountPercent method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Exited getPrice method of the getDiscountedPercent class successfully
+2021-08-07	07:54:32	Entered the getEMIDetails method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the checkViewPlanForEMI method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getViewPlanLinkUsingClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getViewPlanLinkUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the get getViewPlanLinkUsingClass method of the ObjectRepository class
+2021-08-07	07:54:32	Exited getViewPlanLinkUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:32	Entered the getTotalReviewPage method of get FlipkratScrapper class
+2021-08-07	07:54:32	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:32	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:32	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:33	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:33	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:33	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:33	Entered the get getMoreReviewUsingClass method of the ObjectRepository class
+2021-08-07	07:54:33	Exited getMoreReviewUsingClass method of the ObjectRepository class successfully
+2021-08-07	07:54:33	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:33	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:33	Entered the get getTotalReviewPage method of the ObjectRepository class
+2021-08-07	07:54:33	Exited getTotalReviewPage method of the ObjectRepository class successfully
+2021-08-07	07:54:33	Entered the findElementByClass method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited findElementByClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:54:35	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:54:35	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:54:35	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:54:35	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:54:35	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:54:35	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:54:35	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:35	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:35	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:35	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:35	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:35	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:36	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:36	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:36	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:54:36	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:54:42	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:54:44	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:54:44	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:54:44	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:54:44	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:54:44	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:54:44	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:54:44	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:44	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:44	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:44	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:44	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:44	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:45	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:45	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:45	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:54:45	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:54:52	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:54:55	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:54:55	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:54:55	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:54:55	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:54:55	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:54:55	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:54:55	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:55	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:54:55	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:54:55	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:54:55	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:54:55	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:55	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:54:56	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:54:56	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:55:04	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:55:07	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:55:07	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:55:07	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:55:07	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:55:07	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:55:07	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:55:07	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:55:07	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:07	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:55:07	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:55:17	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the getReviewDetailsForProduct method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the getRatings method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the get getRatings method of the ObjectRepository class
+2021-08-07	07:55:20	Exited getRatings method of the ObjectRepository class successfully
+2021-08-07	07:55:20	Entered the findingElementsFromPageUsingCSSSelector method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited findingElementsFromPageUsingCSSSelector method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the getComments method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the get getComment method of the ObjectRepository class
+2021-08-07	07:55:20	Exited getComment method of the ObjectRepository class successfully
+2021-08-07	07:55:20	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the getCustomerNamesAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the getLocatorsObject method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited getLocatorsObject method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the get getCustomerName method of the ObjectRepository class
+2021-08-07	07:55:20	Exited getCustomerName method of the ObjectRepository class successfully
+2021-08-07	07:55:20	Entered the findingElementsFromPageUsingClass method of get FlipkratScrapper class
+2021-08-07	07:55:20	Exited findingElementsFromPageUsingClass method of the FlipkratScrapper class successfully
+2021-08-07	07:55:20	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the separateCustomernameAndReviewAge method of FlipkratScrapper class
+2021-08-07	07:55:20	Entered the insert_in_table method of cassandraDBManagement class
+2021-08-07	07:55:20	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:55:28	Entered the openUrl method of get FlipkratScrapper class
+2021-08-07	07:55:30	Exited openUrl method of the FlipkratScrapper class successfully
+2021-08-07	07:55:37	Entered the __init__ method of get FlipkratScrapper class
+2021-08-07	07:55:41	Entered the findAllRecords method of cassandraDBManagement class
+2021-08-07	07:55:41	Entered the cassandra_connection method of cassandraDBManagement class
+2021-08-07	07:55:49	Entered the saveDataFrameToFile method of FlipkratScrapper class
+2021-08-07	07:55:49	Exited saveDataFrameToFile method of the ObjectRepository class successfully
+2021-08-07	07:55:49	The file is Successfully saved!!!
+2021-08-07	07:55:57	Entered the view_all_plots method of plotly_dashboard class
+2021-08-07	07:55:57	Entered the create_sunburst_plot method of plotly_dashboard class
+2021-08-07	07:55:57	Entered the data_input_transformation method of plotly_dashboard class
+2021-08-07	07:56:56	Entered the create_line_plot method of plotly_dashboard class
+2021-08-07	07:56:56	Entered the data_input_transformation method of plotly_dashboard class
+2021-08-07	07:56:59	Entered the cloud_plot method of plotly_dashboard class
+2021-08-07	07:56:59	Entered the data_input_transformation method of plotly_dashboard class

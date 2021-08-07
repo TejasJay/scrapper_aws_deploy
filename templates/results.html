@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Result</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(static/images/resultbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    padding-top:150px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.about-me{
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.about-me h1{
+    padding-top: 0;
+    font-weight: normal;
+    color: black;
+}
+.about-me .heading h1{
+    text-align:center;
+}
+
+.about-me p{
+    padding: 10px 0 0;
+    font-weight: normal;
+    color: black;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 15px 2px;
+}
+
+.about-col img{
+    width: 100%;
+    padding: 15px 2px;
+}
+
+
+.about-me img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.dpr-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+@media(max-width:700px){
+    .sub-header{
+        height: 35vh;
+    }
+
+    .sub-header h1{
+        font-size: 30px;
+    }
+
+    .about-me{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        margin: auto;
+        font-weight: normal;
+        color: black;
+    }
+
+    .about-me h1{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .about-me p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+        font-size: 15px;
+        color: black;
+    }
+    .about-col img{
+        width: 100%;
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+</style>
+
+  {% if rows is none %}
+    <meta http-equiv="refresh" content="10" />
+  {% endif %}
+</head>
+
+
+
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(static/images/resultbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    padding-top:150px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.about-me{
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.about-me h1{
+    padding-top: 0;
+    font-weight: normal;
+    color: black;
+}
+.about-me .heading h1{
+    text-align:center;
+}
+
+.about-me p{
+    padding: 10px 0 0;
+    font-weight: normal;
+    color: black;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 15px 2px;
+}
+
+.about-col img{
+    width: 100%;
+    padding: 15px 2px;
+}
+
+
+.about-me img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.dpr-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.table table-hover table-dark{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*----------------------- buttons to view dashboard ------------------------*/
+
+.containerr{
+  text-align: center;
+  margin-top: 50px;
+}
+.btnn{
+  border: 1px solid #0a0a0a;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btnn1,.btnn2{
+  color: #0a0a0a;
+}
+.btnn3,.btnn4{
+  color: #fff;
+}
+.btnn1:hover,.btnn2:hover{
+  color: #fff;
+}
+.btnn3:hover,.btnn4:hover{
+  color: #0a0a0a;
+}
+.btnn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #0a0a0a;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btnn1::before,.btnn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btnn2::before,.btnn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btnn3::before,.btnn4::before{
+  height: 180%;
+}
+.btnn1:hover::before,.btnn2:hover::before{
+  height: 180%;
+}
+.btnn3:hover::before,.btnn4:hover::before{
+  height: 0%;
+}
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .sub-header{
+        height: 35vh;
+    }
+
+    .sub-header h1{
+        font-size: 30px;
+    }
+
+    .about-me{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        margin: auto;
+        font-weight: normal;
+        color: black;
+    }
+
+    .about-me h1{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .about-me p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+        font-size: 15px;
+        color: black;
+    }
+    .about-col img{
+        width: 100%;
+        align-self: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .table table-hover table-dark{
+       width:100%;
+}
+}
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+
+
+
+
+<section class = "sub-header">
+    <h1>Scrapped Results</h1>
+</section>
+
+
+
+<br>
+
+
+
+        <div class="containerr">
+
+            <h6 align="center" >Click the button once the table loads completely</h6>
+            <br>
+            <a id="defaultfile"  href="/dashboard" target="_blank"><button class="btnn btnn1">View Dashboard</button></a>
+            <a  href="/logs" target="_blank"><button class="btnn btnn4">View Log File</button></a>
+        </div>
+
+
+
+
+
+
+
+
+<br><br><br>
+
+<div class="table-users">
+
+      <table class="table table-hover table-dark" cellspacing="0" style="width:90%;margin-left:auto;margin-right:auto;">
+        <thead>
+            <tr>
+                <th scope="col"><b>Product-Searched</b></th>
+                <th scope="col"><b>ProductName</b></th>
+                <th scope="col"><b>Price</b></th>
+                <th scope="col"><b>Discount percent</b></th>
+                <th scope="col"><b>Available Offers</b></th>
+                <th scope="col"><b>EMI Details</b></th>
+                <th scope="col"><b>Rating</b></th>
+                <th scope="col"><b>Customer Name</b></th>
+                <th width="230" scope="col"><b>Comments</b></th>
+                <th scope="col"><b>Review Age</b></th>
+             </tr>
+        </thead>
+        <tbody>
+
+            {% if rows is not none %}
+            {% for review in rows %}
+            <tr>
+                <td>{{review['product_searched']}}</td>
+                <td>{{review['product_name']}}</td>
+                <td>{{review['price']}}</td>
+                <td>{{review['discount_percent']}}</td>
+                <td>{{review['offer_details']}}</td>
+                <td>{{review['EMI']}} </td>
+                <td>{{review['rating']}} </td>
+                <td>{{review['customer_name']}}</td>
+                <td>{{review['comment']}}</td>
+                <td>{{review['review_age']}}</td>
+            {% endfor %}
+            {% endif %}
+        </tbody>
+      </table>
+   </div>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

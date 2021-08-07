@@ -31,7 +31,7 @@ collection_name = None
 
 free_status = True
 
-application = Flask(__name__)  # initialising the flask app with the name 'app'
+app = Flask(__name__)  # initialising the flask app with the name 'app'
 
 #For selenium driver implementation on heroku
 chrome_options = webdriver.ChromeOptions()
@@ -73,7 +73,7 @@ class threadClass:
 
 
 
-@application.route('/', methods=['POST', 'GET'])
+@app.route('/', methods=['POST', 'GET'])
 @cross_origin()
 def index():
     if request.method == 'POST':
@@ -143,7 +143,7 @@ def index():
 
 
 
-@application.route('/feedback', methods=['POST', 'GET'])
+@app.route('/feedback', methods=['POST', 'GET'])
 @cross_origin()
 def feedback():
     try:
@@ -170,7 +170,7 @@ def feedback():
 
 
 
-@application.route("/dashboard", methods=['GET'])
+@app.route("/dashboard", methods=['GET'])
 @cross_origin()
 def viewdashboard():
     obj = plotly_dashboard(path="static/scrapper_data.csv")
@@ -180,7 +180,7 @@ def viewdashboard():
 
 
 
-@application.route('/logs', methods=['GET'])
+@app.route('/logs', methods=['GET'])
 @cross_origin()
 def viewlogs():
     obj = plotly_dashboard(path="static/scrapper_data.csv")
@@ -193,4 +193,4 @@ def viewlogs():
 
 
 if __name__ == "__main__":
-    application.run()  # running the app on the local machine on port 8000
+    app.run()  # running the app on the local machine on port 8000

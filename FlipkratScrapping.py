@@ -16,10 +16,10 @@ from logger1 import App_Logger
 
 
 path = 'secure-connect-FlipkartScrapper.zip'
-user_id = 'dWKXroJrrZUnxSiSOKyATBmF'
-secure_key = 'qePXHw6WfCmyK,Tv3QHNrBDv3g84,sEqtn.pIRttqQZNmr_0neEszPSde4I9P1eT6dmqbaLF,kDZq,3mdogs+P0RxYGhICm72D6+NUIRsE,zLisdT70p+9ImC2ASUT2a'
+user_id = 'EyeOFNUtvBEWdsuTcwTjqLQQ'
+secure_key = 'K,Xh4igbTq5ZCvRK,_q5u6qieJXwZXpS5dszUGz1Kf1HvBv-HDA,NPvreG.dN4RzYDL0ixBTsnlfzffdSpZIaUKHgshvYgc,x.mj+h8jauSlS.u06nbJFXmnxsTZ9rky'
 key_space = 'tj'
-table_name = 'flipkart_heroku'
+table_name = 'flipkart_heroku1'
 
 
 

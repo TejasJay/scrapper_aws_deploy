@@ -19,7 +19,7 @@ path = 'secure-connect-FlipkartScrapper.zip'
 user_id = 'dWKXroJrrZUnxSiSOKyATBmF'
 secure_key = 'qePXHw6WfCmyK,Tv3QHNrBDv3g84,sEqtn.pIRttqQZNmr_0neEszPSde4I9P1eT6dmqbaLF,kDZq,3mdogs+P0RxYGhICm72D6+NUIRsE,zLisdT70p+9ImC2ASUT2a'
 key_space = 'tj'
-table_name = 'flipkart_aws'
+table_name = 'flipkart_heroku'
 
 
 
@@ -399,7 +399,7 @@ class FlipkratScrapper:
         """
         self.logging.log('Entered the getLinkForExpectedReviewCount method of get FlipkratScrapper class')
         try:
-            product_links = self.actualProductLinks(searchString=searchString)
+            product_links = self.actualProductLinks()
             count = 0
             expected_count = self.getExpectedCountForLooping(expected_review=expected_review)
             while count < expected_count:
@@ -407,6 +407,8 @@ class FlipkratScrapper:
                 self.openUrl(url=url_to_hit)
                 total_review_page = self.getTotalReviewPage()
                 count = total_review_page
+
+            url_to_hit = product_links[random.randint(0, len(product_links) - 1)]
             self.openUrl(url=url_to_hit)
             self.logging.log('Exited getLinkForExpectedReviewCount method of the FlipkratScrapper class successfully')
             return True

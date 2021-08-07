@@ -19,30 +19,6 @@ class ObjectRepository:
 
 
 
-    def getUsernameforMongoDB(self):
-        self.logging.log('Entered the get UsernameforMongoDB method of the ObjectRepository class')
-        try:
-           username = "kavimaurya1997@gmail.com"
-           self.logging.log('Exited UsernameforMongoDB method of the ObjectRepository class successfully')
-           return username
-        except Exception as e:
-            self.logging.log('Unsuccessful in executing UsernameforMongoDB method of the ObjectRepository class: The exception error is: ' +str(e))
-            raise e
-
-
-
-
-
-    def getPasswordforMongoDB(self):
-        self.logging.log('Entered the get getPasswordforMongoDB method of the ObjectRepository class')
-        try:
-            password = "Kavita@123"
-            self.logging.log('Exited getPasswordforMongoDB method of the ObjectRepository class successfully')
-            return password
-        except Exception as e:
-            self.logging.log('Unsuccessful in executing getPasswordforMongoDB method of the ObjectRepository class: The exception error is: ' +str(e))
-            raise e
-
 
 
 

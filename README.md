@@ -5,6 +5,7 @@
 
 ### Running the application
 - To run the application clone the project using <git clone https://github.com/TejasJay/scrapper_aws_deploy.git> using your IDE
+- Set up your virtual environment
 - Install all the requirements using <pip install -r requirements.txt>
 - Run app.py
 - access the application on <localhost:5000> on your chrome browser
